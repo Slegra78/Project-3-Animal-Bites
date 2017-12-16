@@ -37,16 +37,17 @@ The data set that I decided to use for my final project is going to take a look 
 
 **1)** This data set consists of a csv (excel) file. There are 9003 rows of data in Health_AnimalBites.
 **2)** THe columns in this file consist of the following data
-     *Bite Date
-     *Species ID
-     *Breed ID
-     *Gender ID
-     *Color
-     *Vaccination year & dates
-     *Victim Zip
-     *Location of the Bite
-     *Quarantine
-     *Deposition of the Animal
+
+     - *Bite Date
+     - *Species ID
+     - *Breed ID
+     - *Gender ID
+     - *Color
+     - *Vaccination year & dates
+     - *Victim Zip
+     - *Location of the Bite
+     - *Quarantine
+     - *Deposition of the Animal
      
 ## Install: 
 
