@@ -55,6 +55,7 @@ The data set that I decided to use for my final project is going to take a look 
 ## Install: 
 
 **1)** We begin by importing the following first
+
        * *numpy
        * *pandas
        * *seaborn
