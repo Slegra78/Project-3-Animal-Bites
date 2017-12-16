@@ -56,37 +56,47 @@ The data set that I decided to use for my final project is going to take a look 
 
 **1)** We begin by importing the following first
 
-       - [numpy]
-       - [pandas]
-       - [seaborn]
-       - [matplotlib.pyplot]
-       - [matplotlib.patches]
+       - numpy
+       - pandas
+       - seaborn
+       - matplotlib.pyplot
+       - matplotlib.patches
         
 ## Project Description:
 
 Line 1: after importing all our supporting modules we ask for the Health_AnimalBites.csv to be read.
 Line 2: we take a look at the data columns.
+
         * bite_date', 'SpeciesIDDesc', 'BreedIDDesc', 'GenderIDDesc', 'color','vaccination_yrs', 'vaccination_date', 'victim_zip',                'AdvIssuedYNDesc','WhereBittenIDDesc', 'quarantine_date', 'DispositionIDDesc','head_sent_date', 'release_date',                          'ResultsIDDesc'
+        
 Line 3: call th the data fromt he excel sheet. here we can see the full excel sheet with all the columns and rows.
 Line 4: we are now begining to define some of our data that we want pulled. this shows us what animals are in our data set.
 Line 5: we make a graph showing the number of animals bites recorder per animal in our data set.
+
 ![alt text](C:/Users/stephanie/Documents/DATA SCIENCE/Animal_Bites.PNG)
 Line 6: we want to graph the months that animals bites are reported for dogs, cats and Bats through a year.
+
 ![alt text](C:/Users/stephanie/Documents/DATA SCIENCE/Dog_Bites.PNG)
 ![alt text](C:/Users/stephanie/Documents/DATA SCIENCE/Cat_Bites.PNG)
 ![alt text](C:/Users/stephanie/Documents/DATA SCIENCE/Bat_Bites.PNG)
+
 Line 7: the animals that we want to reallypay attention to are dogs as they are the most commonly reported bite cases. We desing a graph that shows the number of reported bites amoung the 10 most aggressive breeds.
 ![alt text](C:/Users/stephanie/Documents/DATA SCIENCE/Dog_Breed_Bites.PNG)
+
 Line 8: graphs the positions of the body that bites are most commonly found. Most bits from Cats, Dogs, and Bats are on the head or body of a person.
 ![alt text](C:/Users/stephanie/Documents/DATA SCIENCE/Dog_Probability.PNG)
 ![alt text](C:/Users/stephanie/Documents/DATA SCIENCE/Cat_Probability.PNG)
 ![alt text](C:/Users/stephanie/Documents/DATA SCIENCE/Bat_Probability.PNG)
+
 The above graphs show us the following probabilities
+
        * Dogs are 19% more likely to bite people on the head adn 81% on the body.
        * Cats are 4% more likely to bite people on the head and 96% on the body.
        * Bats are 5% more likely to bite people on the head and 95% on the boody.
+       
 Line 9: we go back to lookign at dogs, but now we want to compare male and female dogs. We see that Male dogs are more likely to bite then female dogs.
 ![alt text](C:/Users/stephanie/Documents/DATA SCIENCE/Male_VS_Female.PNG)
+
 Line 10: lastly we want to look at how many of these reported bites are from rabit animals. Fromt he pie charts we see that there are very low percentage of rabit animals that bit people.
 ![alt text](C:/Users/stephanie/Documents/DATA SCIENCE/Rabid_Bat.PNG)
 ![alt text](C:/Users/stephanie/Documents/DATA SCIENCE/Rabid_Bat.PNG)
