@@ -30,10 +30,8 @@ The data set that I decided to use for my final project is going to take a look 
 
 - [Background](#background)
 - [Install](#install)
-- [Usage](#usage)
-- [Related Efforts](#related-efforts)
-- [Project Explaination](#Project-explaination)
-- [License](#license)
+- [Project Description](#project_description)
+- [Conclusion](#conclusion)
 
 ## Background
 
@@ -64,31 +62,31 @@ The data set that I decided to use for my final project is going to take a look 
         
 ## Project Description:
 
-Line 1: after importing all our supporting modules we ask for the Health_AnimalBites.csv to be read.
+**Line 1:** after importing all our supporting modules we ask for the Health_AnimalBites.csv to be read.
 
-Line 2: we take a look at the data columns.
+**Line 2:** we take a look at the data columns.
 
         * bite_date', 'SpeciesIDDesc', 'BreedIDDesc', 'GenderIDDesc', 'color','vaccination_yrs', 'vaccination_date', 'victim_zip',                'AdvIssuedYNDesc','WhereBittenIDDesc', 'quarantine_date', 'DispositionIDDesc','head_sent_date', 'release_date',                          'ResultsIDDesc'
         
-Line 3: call th the data fromt he excel sheet. here we can see the full excel sheet with all the columns and rows.
+**Line 3:** call th the data fromt he excel sheet. here we can see the full excel sheet with all the columns and rows.
 
-Line 4: we are now begining to define some of our data that we want pulled. this shows us what animals are in our data set.
+**Line 4:** we are now begining to define some of our data that we want pulled. this shows us what animals are in our data set.
 
-Line 5: we make a graph showing the number of animals bites recorder per animal in our data set.
+**Line 5:** we make a graph showing the number of animals bites recorder per animal in our data set.
 
 ![animal_bites](https://user-images.githubusercontent.com/31327721/34066703-f43646f6-e1e0-11e7-9f11-f2c3a5ed4bea.PNG)
 
-Line 6: we want to graph the months that animals bites are reported for dogs, cats and Bats through a year.
+**Line 6:** we want to graph the months that animals bites are reported for dogs, cats and Bats through a year.
 
 ![dog_bites](https://user-images.githubusercontent.com/31327721/34066708-19c41812-e1e1-11e7-9e5c-b4e92dd1f1da.png)
 ![cat_bites](https://user-images.githubusercontent.com/31327721/34066713-28884756-e1e1-11e7-8411-c3619190773a.png)
 ![bat_bites](https://user-images.githubusercontent.com/31327721/34066714-30646a9a-e1e1-11e7-94c8-4dd782c9fd4c.png)
 
-Line 7: the animals that we want to reallypay attention to are dogs as they are the most commonly reported bite cases. We desing a graph that shows the number of reported bites amoung the 10 most aggressive breeds.
+**Line 7:** the animals that we want to reallypay attention to are dogs as they are the most commonly reported bite cases. We desing a graph that shows the number of reported bites amoung the 10 most aggressive breeds.
 
 ![dog_breed_bites](https://user-images.githubusercontent.com/31327721/34066715-3a1b729a-e1e1-11e7-8e12-a4882441031b.png)
 
-Line 8: graphs the positions of the body that bites are most commonly found. Most bits from Cats, Dogs, and Bats are on the head or body of a person.
+**Line 8:** graphs the positions of the body that bites are most commonly found. Most bits from Cats, Dogs, and Bats are on the head or body of a person.
 
 ![dog_probability](https://user-images.githubusercontent.com/31327721/34066716-428f7f98-e1e1-11e7-878e-f6f9cf6d1b3d.png)
 ![cat_probability](https://user-images.githubusercontent.com/31327721/34066717-494542e6-e1e1-11e7-8abe-c0d13a2a26c4.png)
@@ -100,11 +98,11 @@ The above graphs show us the following probabilities
        * Cats are 4% more likely to bite people on the head and 96% on the body.
        * Bats are 5% more likely to bite people on the head and 95% on the boody.
        
-Line 9: we go back to lookign at dogs, but now we want to compare male and female dogs. We see that Male dogs are more likely to bite then female dogs.
+**Line 9:** we go back to lookign at dogs, but now we want to compare male and female dogs. We see that Male dogs are more likely to bite then female dogs.
 
 ![male_vs_female](https://user-images.githubusercontent.com/31327721/34066721-5755a16e-e1e1-11e7-9801-74decb9c1ff8.png)
 
-Line 10: lastly we want to look at how many of these reported bites are from rabit animals. Fromt he pie charts we see that there are very low percentage of rabit animals that bit people.
+**Line 10:** lastly we want to look at how many of these reported bites are from rabit animals. Fromt he pie charts we see that there are very low percentage of rabit animals that bit people.
 
 ![rabid_dog](https://user-images.githubusercontent.com/31327721/34066722-5e941582-e1e1-11e7-8946-7b6f9a1e59de.png)
 ![rabid_bat](https://user-images.githubusercontent.com/31327721/34066723-652f26f2-e1e1-11e7-87a3-ff6ec350af84.png)
