@@ -11,9 +11,11 @@ Project 3 Animal Bites
 12/14/17  
 
 ## The goals for this repository are:
+
 The data set that I decided to use for my final project is going to take a look at animal bites in the United States. Wehn someone is bitten there is always a concer that they might have rabis. The data set from Kaan Can will look at information fom over 9,000 animal bites which occurred from 1985 to 2017 and includes information on whether the animal was quarantined after the bite occurred and whether that animal was rabid.
 
 ## Content:
+
 1. Features of Animal Bite Data
 2. Animal Species
 3. Animal Name VS Number of Bite
@@ -36,17 +38,18 @@ The data set that I decided to use for my final project is going to take a look 
 ## Background
 
 **1)** This data set consists of a csv (excel) file. There are 9003 rows of data in Health_AnimalBites.
+
 **2)** The columns in this file consist of the following data
-       * Bite Date
-       * Species ID
-       * Breed ID
-       * Gender ID
-       * Color
-       * Vaccination year & dates
-       * Victim Zip
-       * Location of the Bite
-       * Quarantine
-       * Deposition of the Animal
+       - Bite Date
+       - Species ID
+       - Breed ID
+       - Gender ID
+       - Color
+       - Vaccination year & dates
+       - Victim Zip
+       - Location of the Bite
+       - Quarantine
+       - Deposition of the Animal
      
 ## Install: 
 
